@@ -20,3 +20,19 @@ Unlike classical electromagnetic antennas, the DS-QCA utilizes a 3D orthogonal t
 
 ## ⚖️ License
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. Anyone is free to use, modify, and distribute this architecture, provided all derivative works remain completely open-source and properly attribute this original framework.
+
+## 🛠️ Hardware Simulation Quickstart (Google Colab / Linux)
+
+To compile and verify the `hardware_hdl` modules without setting up a local hardware IDE, you can run the validation 
+testbench directly in an open-source terminal environment.
+
+### 1. Environmental Setup
+```bash
+sudo apt-get update
+sudo apt-get install -y iverilog vvp
+
+2. Compilation Execution
+Navigate to the root directory and build the compiled simulation structural executable file using Icarus Verilog:
+iverilog -o simulation.vvp hardware_hdl/signal_conditioner.v hardware_hdl/tb_signal_conditioner.v
+vvp simulation.vvp
+
