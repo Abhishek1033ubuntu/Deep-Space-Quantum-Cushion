@@ -4,6 +4,10 @@
 An open-source, high-fidelity architectural simulation modeling a 6-atom ($3+3$) entangled network spanning an Earth-bound Base Station and a Deep-Space Probe Payload. This project maps out a Decoherence-Free Subspace (DFS) "quantum cushion" designed to isolate localized gravitational anomalies and magnetic field vectors out of severe cosmic dephasing noise.
 
 ---
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21564498.svg)](https://doi.org/10.5281/zenodo.21564498)
+![Status](https://img.shields.io/badge/Status-Research_POC-orange)
+![Type](https://img.shields.io/badge/Type-Simulation_Model-blue)
+---
 
 ## 🚀 Architectural Overview
 Unlike classical electromagnetic antennas, the DS-QCA utilizes a 3D orthogonal triad arrangement of entangled Rubidium-87 atoms to capture macro-environmental spatial tensors without relying on reflective collector dishes. 
