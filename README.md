@@ -22,9 +22,6 @@ Unlike classical electromagnetic antennas, the DS-QCA utilizes a 3D orthogonal t
 * `/software_pipeline/` : Automated telemetry decoding, high-pass detrending, and spectral FFT analysis.
 * `/fault_tolerance/` : Simulation loops proving system synergy against frame drops, circuit clipping, and particle attrition.
 
-## ⚖️ License
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. Anyone is free to use, modify, and distribute this architecture, provided all derivative works remain completely open-source and properly attribute this original framework.
-
 ## 🛠️ Hardware Simulation Quickstart (Google Colab / Linux)
 
 To compile and verify the `hardware_hdl` modules without setting up a local hardware IDE, you can run the validation 
