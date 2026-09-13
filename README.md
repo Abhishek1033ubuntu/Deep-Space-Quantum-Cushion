@@ -1,7 +1,6 @@
 # Deep-Space Quantum Cushion Array (DS-QCA)
 
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21564498.svg)](https://doi.org/10.5281/zenodo.21564498)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21564498-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.21564498)
 ![Status](https://img.shields.io/badge/Status-Research_POC-orange) ![Type](https://img.shields.io/badge/Type-Simulation_Model-blue)
 
 ---
@@ -36,6 +35,7 @@ sudo apt-get install -y iverilog vvp
 Navigate to the root directory and build the compiled simulation structural executable file using Icarus Verilog:
 iverilog -o simulation.vvp hardware_hdl/signal_conditioner.v hardware_hdl/tb_signal_conditioner.v
 vvp simulation.vvp
+```
 
 # Important Notice
 
